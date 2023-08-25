@@ -72,6 +72,12 @@ header .container {
         padding: 10px;
     }
 }
+
+@media (max-width: 768px) {
+    header .container .logo {
+        font-size: 25px;
+    }
+}
 header .container .logo {
     display: block;
     color: var(--main-color);
@@ -84,7 +90,7 @@ header .container .logo {
 @media (max-width: 768px) {
     header .mue {
         display: block;
-        font-size: 40px;
+        font-size: 30px;
     }
 }
 header .container .nav {
